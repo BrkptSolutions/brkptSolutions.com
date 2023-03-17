@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/Logo.css'
 
 
 function Logo({ width, height }) {

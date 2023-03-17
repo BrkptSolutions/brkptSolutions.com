@@ -1,4 +1,9 @@
 .logo {
-    overflow:hidden
+    overflow:hidden;
+    display: inline-flex !important;
+    padding-left: .25em;
+    padding-top:.25em;
+    padding-bottom:.25em;
+      
     
 }
