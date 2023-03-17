@@ -1,9 +1,13 @@
 .logo {
     overflow:hidden;
     display: inline-flex !important;
-    padding-left: .25em;
-    padding-top:.25em;
-    padding-bottom:.25em;
+    padding-left: .5%;
+    padding-top: .5%;
+    padding-bottom:.5%;
+    position: sticky;
+    top:0;
+    left:0
+
       
     
 }

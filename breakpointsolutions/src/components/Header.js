@@ -32,6 +32,7 @@ class Header extends Component {
     return (
       <div className="header" style={{ width, height }}>
         <Logo width={width} height={height} />
+        <h1 className="title">BreakPoint Solutions</h1>
       </div>
     );
   }

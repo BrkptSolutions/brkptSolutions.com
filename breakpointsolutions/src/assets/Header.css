@@ -1,54 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular&subset=latin,latin-ext');
-.header {
-    
-        background-color: #1e1e1e; /* VS code default gray */
-        /* 1/6 of the viewport height */
-        width: 100%;
 
-      
+.header {
+
+  background-color: #1e1e1e;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #020202;
+  height: 150px;
+  border-bottom: 1px solid #e2e2e2;
+  position: sticky;
+
 }
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #020202;
-    height: 150px;
-    padding: 200px;
-    border-bottom: 1px solid #e2e2e2;
-  }
-  
-  .logo-container {
-    width: auto;
-  }
-  
-  .logo {
-    width: 100%;
-    height: auto;
-  }
-  
-  .company-name {
-    font-size: 70px;
-    
-    color: #ffffff;
-    font-family: 'Source_Code_Pro';
-  }
-  
-  .vertical-break {
-    border-left: 1px solid #e2e2e2;
-    height: 30px;
-    margin: 0 20px;
-  }
-  
-  .button-container {
-    display: flex;
-  }
-  
-  .header-button {
-    background-color: #e2e2e2;
-    color: #000;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  
+
+
+
+
+.title {
+  font-family: 'Source_Code_Pro';
+  color: #ffffff;
+  padding-left: .5%;
+  text-align: left;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.company-name {
+  font-size: 70px;
+
+  color: #ffffff;
+  font-family: 'Source_Code_Pro';
+}
+
+.vertical-break {
+  border-left: 1px solid #e2e2e2;
+  height: 30px;
+  margin: 0 20px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.header-button {
+  background-color: #e2e2e2;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
