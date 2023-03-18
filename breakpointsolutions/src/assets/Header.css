@@ -4,12 +4,13 @@
 
   background-color: #1e1e1e;
   width: 100%;
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+
 
   height: 150px;
  
   position: sticky;
+  overflow: hidden;
 
 }
 
@@ -18,13 +19,18 @@
 
 .title {
   font-family: 'Source_Code_Pro';
+  font-size:45px;
+  display: inline-flex;
   color: #cccccc;
   padding-left: 1.03%;
-  padding-right:1.25%;
+  align-self: center;
   text-align: left;
   background: #1e1e1e;
-}
+  width:600px;
+  
 
+
+}
 
 .vertical-break {
   border-left: 1px solid #e2e2e2;
@@ -43,4 +49,16 @@
   border: none;
   cursor: pointer;
   margin-right: 10px;
+}
+.NavButton {
+  background-color: aliceblue;
+  height:100%;
+}
+
+.VSCodePanels {
+  align-self: center;
+  align-items: center;
+  display: inline-flex !important;
+  height:auto;
+  
 }

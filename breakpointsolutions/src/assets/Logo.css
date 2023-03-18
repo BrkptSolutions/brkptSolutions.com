@@ -1,14 +1,14 @@
 .logo {
     overflow:hidden;
     display: inline-flex !important;
-    padding-left: .5%;
-    padding-top: .5%;
-    padding-bottom:.5%;
+
     position: sticky;
-    top:0;
-    left:0;
+    align-self: center;
+    padding-left:.5%
+
+
     
-    background-color: #1e1e1e;
+   
 
       
     

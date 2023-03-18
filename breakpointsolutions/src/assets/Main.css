@@ -1,0 +1,15 @@
+.bodyBlock {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    flex: auto;
+    color:green;
+    background-color: green;
+    display: flex;
+}
+.view{
+    display:flex;
+    height: 1000px;
+}
+.test1{
+ background-color: black;
+}
