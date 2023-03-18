@@ -9,7 +9,7 @@ function Logo({ width, height }) {
        <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={size}
-                height={size}
+                height={size*1.03}
                 version="1.1"
                 viewBox="0 0 50.063 51.883"
             >

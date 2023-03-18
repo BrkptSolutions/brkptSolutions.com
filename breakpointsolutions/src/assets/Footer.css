@@ -1,0 +1,12 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100vh / 50);
+    background-color: #007ACC; /* VSCode blue */
+    color: #fff; /* white text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
