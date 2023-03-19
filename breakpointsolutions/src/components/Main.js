@@ -6,7 +6,8 @@ class Main extends React.Component {
         super(props);
         this.state = {
           width: window.innerWidth,
-          height: window.innerHeight - (window.innerHeight/10)
+          height: window.innerHeight - (window.innerHeight/10) - (window.innerHeight *.03) ,
+          top: window.innerHeight/10
         };
         this.handleResize = this.handleResize.bind(this);
       }
@@ -22,14 +23,15 @@ class Main extends React.Component {
       handleResize() {
         this.setState({
           width: window.innerWidth,
-          height: window.innerHeight - (window.innerHeight/10)
+          top: window.innerHeight/10,
+          height: window.innerHeight - (window.innerHeight/10) - (window.innerHeight *.03)
         });
       }
     
       render() {
-        const { width, height } = this.state;
+        const { width, top, height } = this.state;
         return(
-            <div className="test1" style={{width,height}}><VSCodePanelView width = {width} height = {height}/></div>
+            <div className="test1" style={{width,top,height}}><VSCodePanelView width = {width} top = {top}/></div>
         )
       }
     }
