@@ -38,19 +38,20 @@ class Header extends Component {
     }
     
     return (
-      <div className="header" style={{ width, height }}>
+      <div id="header-container" className='header' style={{ width, height }}>
+        <div id="left-header" className='header' style = {{width:width*.66}}>
         <Logo width={width} height={height} />
-        <div className="title">{text}</div>
-        {height}
-        <br/>
-        {width}
-        <br/>
-        <VSCodePanels className = "VSCodePanels" >
-        <VSCodePanelTab> About </VSCodePanelTab>
-        <VSCodePanelTab> Resume </VSCodePanelTab>
-        <VSCodePanelTab> Contact </VSCodePanelTab>
-        <VSCodePanelTab> Social Media </VSCodePanelTab>
-        </VSCodePanels>
+        <div id="title">{text}</div>
+
+        </div>
+        <div id="right-header" className='header' style = {{width:width*.33}}>
+          <VSCodePanels className = "VSCodePanels" >
+          <VSCodePanelTab id='tab-1' className='tabs'> About </VSCodePanelTab>
+          <VSCodePanelTab id='tab-2' className='tabs'> Resume </VSCodePanelTab>
+          <VSCodePanelTab id='tab-3' className='tabs'> Contact </VSCodePanelTab>
+          <VSCodePanelTab id='tab-4' className='tabs'> Social Media </VSCodePanelTab>
+          </VSCodePanels>
+        </div>
 
         
       </div>

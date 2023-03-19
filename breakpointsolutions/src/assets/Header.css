@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular&subset=latin,latin-ext');
 
 .header {
-
   background-color: #1e1e1e;
-  width: 100%;
-  display: inline-flex;
-
-
-  height: 150px;
- 
-  position: sticky;
-  overflow: hidden;
-
+  display: flex;
+  overflow-y: hidden;
+  padding-bottom:2px;
+  padding-top:2px;
 }
 
+#header-container {
+  display:flex;
 
+}
+#left-header {
+  justify-content: left;
+  align-self: center;
+  overflow:hidden;
+}
+#right-header {
+  justify-content: right;
+  align-self: center;
+  overflow:visible;
+  padding-right:3%;
+}
 
-
-.title {
+#title {
+  justify-content: left;
   font-family: 'Source_Code_Pro';
+  justify-self: left;
   font-size:45px;
   display: inline-flex;
   color: #cccccc;
@@ -55,10 +64,17 @@
   height:100%;
 }
 
+.tabs {
+  font-size: large;
+}
+
 .VSCodePanels {
   align-self: center;
   align-items: center;
   display: inline-flex !important;
   height:auto;
-  
+  justify-content: right;
+  padding-right: 1%;
+  font-size:100px;
+  overflow:visible;
 }

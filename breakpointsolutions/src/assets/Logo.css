@@ -1,15 +1,10 @@
 .logo {
     overflow:hidden;
     display: inline-flex !important;
-
+    align-self:center;
     position: sticky;
     align-self: center;
-    padding-left:.5%
+    padding-left:1%
 
-
-    
-   
-
-      
     
 }
